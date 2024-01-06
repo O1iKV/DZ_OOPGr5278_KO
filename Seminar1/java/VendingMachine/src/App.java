@@ -36,7 +36,7 @@ public class App {
         listProd.add(item5);
         listProd.add(item6);
         listProd.add(item7);
-        listProd.add(item8);
+        listProd.add(item8); //8-11 Hot drink
         listProd.add(item9);
         listProd.add(item10);
         listProd.add(item11);
@@ -47,8 +47,8 @@ public class App {
 
             System.out.println(p);
         }
-
-        MainFrame myFrame = new MainFrame();
-        myFrame.initialize();
+//Implement it to the end!
+        //MainFrame myFrame = new MainFrame();
+        //myFrame.initialize();
     }
 }
