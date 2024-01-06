@@ -16,14 +16,14 @@ public class MainFrame extends JFrame {
     public void initialize() {
        
         
-        JLabel lbFirstName = new JLabel("First Name");
+        JLabel lbFirstName = new JLabel("Specify the cell of the product or drink");
         lbFirstName.setFont(mainFont);
 
         tfFirstName = new JTextField();
         tfFirstName.setFont(mainFont);
         
         
-        JLabel lbLastName = new JLabel("First Name");
+        JLabel lbLastName = new JLabel("Quantity");
         lbLastName.setFont(mainFont);
 
        
@@ -56,7 +56,7 @@ public class MainFrame extends JFrame {
                 
                 String firstName = tfFirstName.getText();
                 String lastName = tfFirstName.getText();
-                lbWelcome.setText("Hello " + firstName + " " + lastName);
+                lbWelcome.setText("Your choice " + firstName + " " + lastName);
                 
                 
             }
