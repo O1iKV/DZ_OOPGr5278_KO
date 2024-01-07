@@ -41,6 +41,4 @@ public class TaxInspector implements iActorBehaviour {
         return new OrdinaryClient(name);
     }
 
-
-
 }
