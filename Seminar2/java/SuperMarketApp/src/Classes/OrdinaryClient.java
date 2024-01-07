@@ -2,7 +2,7 @@ package Classes;
 
 public class OrdinaryClient extends Actor {
 
-    public OrdinaryClient(String name) {
+    public OrdinaryClient(String name, int number) {
         super(name);
     }
 

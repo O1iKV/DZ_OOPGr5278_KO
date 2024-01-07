@@ -8,7 +8,7 @@ public class TaxInspector implements iActorBehaviour {
     private boolean isMakeOrder;
 
     public TaxInspector() {
-        this.name = "Tax audit";
+        this.name = "Налоговая проверка";
     }
 
     public String getName()
@@ -38,7 +38,7 @@ public class TaxInspector implements iActorBehaviour {
 
     @Override
     public Actor geActor() {
-        return new OrdinaryClient(name);
+        return new OrdinaryClient("Тайный покупатель", 3);
     }
 
 }
